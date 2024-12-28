@@ -1,4 +1,4 @@
-package org.example;
+package org.example.lesson1;
 
 public class Main {
     private static final double CONV_K = 2.20462;
@@ -12,7 +12,7 @@ public class Main {
         double kilos = convPoundsToKgs(pnds);
         System.out.println("Result is " + pounds + " pounds and " + kilos + " kgs");
     }
-    //fdsfsdf
+    //fdsfsdfgfjhfg
     private static double convKgsToPounds(double kgs) {
         return kgs * CONV_K;
     }
