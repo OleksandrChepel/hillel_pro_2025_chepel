@@ -11,7 +11,7 @@ public class Main {private static final double CONV_M = 1.60934;
         double miles = convMlsToKms(kms);
         System.out.println("Result is " + kilometers + " kilometers and " + miles + " miles");
     }
-    //fdsfsdfgfjhfg
+    //sds
     private static double convKmsToMiles(double mls) {
         return mls * CONV_M;
     }
