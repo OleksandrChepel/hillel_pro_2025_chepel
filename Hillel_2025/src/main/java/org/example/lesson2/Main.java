@@ -1,6 +1,7 @@
 package org.example.lesson2;
 
-public class Main {private static final double CONV_M = 1.60934;
+public class Main {
+    private static final double CONV_M = 1.60934;
 
     public static void main(String[] args) {
         System.out.println("Converter App");
@@ -11,7 +12,7 @@ public class Main {private static final double CONV_M = 1.60934;
         double miles = convMlsToKms(kms);
         System.out.println("Result is " + kilometers + " kilometers and " + miles + " miles");
     }
-    //fdsfsdfgfjhfg
+    //sds
     private static double convKmsToMiles(double mls) {
         return mls * CONV_M;
     }
@@ -19,3 +20,4 @@ public class Main {private static final double CONV_M = 1.60934;
         return kms / CONV_M;
     }
 }
+
